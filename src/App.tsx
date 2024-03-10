@@ -6,7 +6,7 @@ const App = () => {
 
   return (
     <>
-      <h1>My To Do List</h1>
+      <h1 className="todo-title">To Do List</h1>
       <Form />
     </>
   )

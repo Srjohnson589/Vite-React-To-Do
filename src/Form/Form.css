@@ -1,0 +1,30 @@
+
+.add-todo {
+    background-color: rgba(184, 251, 251, 0.4);
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+input {
+    font-family: inherit;
+    margin: 20px;
+    margin-right: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    border-radius: 3px;
+    border: none;
+    font-size: 16px;
+}
+
+.add-btn {
+    font-family: inherit;
+    font-weight: 500;
+    padding: 2px 6px;
+    font-size: 16px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+

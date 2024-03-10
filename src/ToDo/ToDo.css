@@ -1,0 +1,68 @@
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin: 20px;
+    color: black;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.unchecked {
+    background-color: aliceblue;
+}
+
+.checked {
+    background-color: gray;
+}
+
+.checkcontainer {
+    display: flex;
+    align-items: center;
+}
+
+.checkcontainer:hover {
+    background-color: rgb(209, 209, 207);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.todo-text {
+    border: 1px solid transparent;
+    border-radius: 2px;
+    padding: 2px 30px;
+    width: 150px;
+    line-height: 1;
+    display: block;
+}
+
+.todo-text:hover {
+    border: 1px solid lightblue;
+}
+
+.trash:hover, .trash:active {
+    color: blue;
+}
+
+.change-input {
+    border: 1px solid transparent;
+    border-radius: 2px;
+    padding: 0;
+    margin: 15px 40px;
+    width: 150px;
+    background-color: aliceblue;
+    color: black;
+    font: inherit;
+    text-align: center;
+    line-height: 1;
+}
+
+.change-input:focus {
+    border: 1px solid lightblue;
+}
+
+.change-input:focus-visible {
+    outline: none;
+    line-height: 1;
+
+}
